@@ -1,4 +1,4 @@
-package Teste;
+package java.oo.logicadeprogramacao;
 
 public class Aula2Operadores {
     public static void main(String[] args) {

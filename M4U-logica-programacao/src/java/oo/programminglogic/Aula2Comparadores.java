@@ -1,6 +1,4 @@
-package Teste;
-
-import java.util.Scanner;
+package java.oo.logicadeprogramacao;
 
 public class Aula2Comparadores {
     // < >  <= >=  ==  !=  pegar valores de comparação e dizer o que é o resultado

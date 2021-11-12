@@ -1,4 +1,4 @@
-package Teste;
+package java.oo.logicadeprogramacao;
 
 import java.util.Scanner;
 
@@ -10,7 +10,7 @@ public class Aula3IfElse {
 
         Scanner obj = new Scanner(System.in);
 
-        System.out.println("Qual seu nome?");
+        System.out.println("Qual seu name?");
         String nome = obj.nextLine();
 
         System.out.println("Olá," + nome);

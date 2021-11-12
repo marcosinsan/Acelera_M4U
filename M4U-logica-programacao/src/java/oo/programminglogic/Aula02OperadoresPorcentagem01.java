@@ -1,4 +1,4 @@
-package Teste;
+package java.oo.logicadeprogramacao;
 
 import java.util.Scanner;
 
