@@ -1,4 +1,4 @@
-package java.oo.logicadeprogramacao;
+package java.oo.programminglogic;
 
 import java.util.Scanner;
 

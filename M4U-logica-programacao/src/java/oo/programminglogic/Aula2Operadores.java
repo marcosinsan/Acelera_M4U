@@ -1,4 +1,4 @@
-package java.oo.logicadeprogramacao;
+package java.oo.programminglogic;
 
 public class Aula2Operadores {
     public static void main(String[] args) {

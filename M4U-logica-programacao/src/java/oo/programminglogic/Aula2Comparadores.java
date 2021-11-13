@@ -1,4 +1,4 @@
-package java.oo.logicadeprogramacao;
+package java.oo.programminglogic;
 
 public class Aula2Comparadores {
     // < >  <= >=  ==  !=  pegar valores de comparação e dizer o que é o resultado

@@ -1,4 +1,4 @@
-package java.oo.logicadeprogramacao;
+package java.oo.programminglogic;
 
 import java.util.Scanner;
 
@@ -12,7 +12,7 @@ public class Aula3OperadoresLogicos {
 
         Scanner myobj = new Scanner(System.in);
 
-        System.out.println("Digite sua idade:");
+        System.out.println("Digite sua age:");
         int idade = myobj.nextInt();
 
         System.out.println("Qual seu sálario atual:");

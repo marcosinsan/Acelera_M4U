@@ -4,21 +4,21 @@ public class Exemplo {
     public static void main(String[] args) {
 
         // Crindo obj para indentificar a entrada do usuario.
-        Scanner myObj = new Scanner(System.in);
-        System.out.println("Olá, Qual seu nome?");
-
-        String nome = myObj.nextLine();
-        System.out.printf("Oi, %s", nome);
-
-        String sobrenome;
-
-        System.out.printf("E o seu sobrenome?\n");
-        sobrenome = myObj.nextLine();
-
-        System.out.printf("Seu nome completo é %s %s", nome, sobrenome);
-
-        String nomeCompleto = nome + " " + sobrenome;
-        System.out.println("\nSeja Bem-Vindo " + nomeCompleto);
+//        Scanner myObj = new Scanner(System.in);
+////        System.out.println("Olá, Qual seu name?");
+//
+//        String name = myObj.nextLine();
+////        System.out.printf("Oi, %s", name);
+//
+//        String sobrenome;
+//
+////        System.out.printf("E o seu sobrenome?\n");
+//        sobrenome = myObj.nextLine();
+//
+////        System.out.printf("Seu name completo é %s %s", name, sobrenome);
+//
+//        String nomeCompleto = name + " " + sobrenome;
+////        System.out.println("\nSeja Bem-Vindo " + nomeCompleto);
 
         //===============================//================================//
         /*
@@ -63,6 +63,6 @@ public class Exemplo {
         //SOMA
 
         int soma = n1 + n2;
-        System.out.println();
+        System.out.printf("A soma de %d + %d = %d\n", n1, n2, soma);
     }
 }
