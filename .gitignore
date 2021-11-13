@@ -34,3 +34,6 @@ build/
 
 ## Outros ##
 .metadata/
+
+## Node.js ##
+node_modules
