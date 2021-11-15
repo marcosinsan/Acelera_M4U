@@ -2,16 +2,20 @@
 
 // Imports
 import { Request, Response } from "express";
+import { getCustomRepository } from "typeorm";
 
+import {CadastroRepository} from "../repositories/CadastroRepository";
 
 // Recurso de requisição
 export default {
 
     async create(req: Request, res: Response) {
         const {nome, cpf} = req.body;
-        
-        const data = {cpf, nome};
+        var data = {cpf, nome};
 
+        const repository = getCustomRepository(CadastroRepository);       
+
+        data = await repository.save(data);
         
         return res.status(201).json({data:data});
     },
