@@ -6,12 +6,15 @@
   "author": "Marcos Santana",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node-dev src/server.ts"
+    "dev": "ts-node-dev src/server.ts",
+    "typeorm": "ts-node-dev node_modules/typeorm/cli.js"
   },
   "dependencies": {
     "express": "^4.17.1",
     "knex": "^0.95.14",
-    "mysql2": "^2.3.3-rc.0"
+    "mysql2": "^2.3.3-rc.0",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "^0.2.40"
   },
   "devDependencies": {
     "@types/express": "^4.17.13",
