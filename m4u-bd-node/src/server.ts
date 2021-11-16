@@ -1,6 +1,6 @@
 import express, { request, response } from 'express';
 import routes from './routes';
-import "./database";
+import "./database/migrations";
 
 const app = express();
 
